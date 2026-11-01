@@ -1,0 +1,18 @@
+schema: 1
+habits:
+  - id: ejercicio
+    name: Ejercicio
+    icon: barbell
+    active: true
+  - id: creatina
+    name: Creatina
+    icon: pill
+    active: true
+  - id: proteina
+    name: Proteína
+    icon: bottle
+    active: true
+  - id: desayuno
+    name: Desayuno
+    icon: egg
+    active: true

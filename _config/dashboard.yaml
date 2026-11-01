@@ -1,0 +1,32 @@
+schema: 1
+widgets:
+  - instance: habitos
+    type: habits
+    size: full
+    visible: true
+    settings: {}
+  - instance: retomar
+    type: resume
+    size: full
+    visible: true
+    settings: {}
+  - instance: notas-rapidas
+    type: quick-notes
+    size: half
+    visible: true
+    settings: { limit: 5 }
+  - instance: por-leer
+    type: reading-list
+    size: half
+    visible: true
+    settings: { status: [pending, reading], limit: 5 }
+  - instance: cita-del-dia
+    type: quotes
+    size: full
+    visible: true
+    settings: { mode: daily, limit: 1 }
+  - instance: abandonados
+    type: stale
+    size: full
+    visible: true
+    settings: { days: 14 }
