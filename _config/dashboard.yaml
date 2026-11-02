@@ -14,19 +14,33 @@ widgets:
     type: quick-notes
     size: half
     visible: true
-    settings: { limit: 5 }
+    settings:
+      limit: 5
   - instance: por-leer
     type: reading-list
     size: half
     visible: true
-    settings: { status: [pending, reading], limit: 5 }
+    settings:
+      status:
+        - pending
+        - reading
+      limit: 5
   - instance: cita-del-dia
     type: quotes
     size: full
     visible: true
-    settings: { mode: daily, limit: 1 }
+    settings:
+      mode: daily
+      limit: 1
   - instance: abandonados
     type: stale
     size: full
     visible: true
-    settings: { days: 14 }
+    settings:
+      days: 14
+  - instance: active
+    type: active
+    size: full
+    visible: false
+    settings:
+      limit: 5
