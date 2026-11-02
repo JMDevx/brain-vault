@@ -25,6 +25,12 @@ widgets:
         - pending
         - reading
       limit: 5
+  - instance: abandonados
+    type: stale
+    size: full
+    visible: true
+    settings:
+      days: 14
   - instance: cita-del-dia
     type: quotes
     size: full
@@ -32,12 +38,6 @@ widgets:
     settings:
       mode: daily
       limit: 1
-  - instance: abandonados
-    type: stale
-    size: full
-    visible: true
-    settings:
-      days: 14
   - instance: active
     type: active
     size: full
